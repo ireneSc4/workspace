@@ -3,8 +3,8 @@ NUM_MAX_SALUDOS=4
 num_saludos=0
 while quieres_saludar=='S':
     print('Hola que tal!')	
-    num_saludo +=1
-    if num_saludo == NUM_MAX_SALUDOS:
+    num_saludos +=1
+    if num_saludos == NUM_MAX_SALUDOS:
          print('Has alcanzado el nº máximo de salidos')
          break
     quieres_saludar=input('¿Quiere otro saludo? [S/N])')
